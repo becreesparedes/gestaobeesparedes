@@ -1,0 +1,60 @@
+[
+  {"mes":"Setembro","cor":"#e0f2fe","brd":"#0284c7","items":[
+    {"t":"PAA-BE + PPL + Orçamento F02 — até 30/set","m":"D","r":"PB"},
+    {"t":"Levantamento de necessidades dos departamentos","m":"A","r":"PB"},
+    {"t":"Importação utilizadores BiblioNet","m":"D","r":"PB AO"},
+    {"t":"Revisão RED + catálogo","m":"A","r":"PB DC"},
+    {"t":"Reunião equipa + F15","m":"D","r":"PB"}
+  ]},
+  {"mes":"Outubro","cor":"#fff7ed","brd":"#ea580c","items":[
+    {"t":"Visitas acolhimento 7.º e 10.º anos (CL03)","m":"D","r":"PB AO"},
+    {"t":"Início sessões articulação (F07)","m":"A","r":"PB DC"},
+    {"t":"1.ª atividade PPL — Exposição Temática","m":"B","r":"PB DC"},
+    {"t":"1.ª Newsletter do ano letivo","m":"D","r":"PB DC"},
+    {"t":"Inspeção semestral fundo S1 (CL04)","m":"D","r":"AO PB"}
+  ]},
+  {"mes":"Novembro","cor":"#f0fdf4","brd":"#16a34a","items":[
+    {"t":"Sessões articulação (F07)","m":"A","r":"PB DC"},
+    {"t":"PPL — Hora do Conto","m":"B","r":"PB DC"},
+    {"t":"Newsletter novembro","m":"D","r":"PB DC"},
+    {"t":"Verificação backups BiblioNet (F17)","m":"D","r":"PB"}
+  ]},
+  {"mes":"Dezembro","cor":"#fdf4ff","brd":"#9333ea","items":[
+    {"t":"PPL — Atividade de Natal","m":"B","r":"PB DC"},
+    {"t":"Newsletter + balanço 1.º período","m":"D","r":"PB"}
+  ]},
+  {"mes":"Janeiro","cor":"#e0f2fe","brd":"#0284c7","items":[
+    {"t":"Sessões articulação","m":"A","r":"PB DC"},
+    {"t":"Newsletter janeiro","m":"D","r":"PB DC"}
+  ]},
+  {"mes":"Fevereiro","cor":"#fff7ed","brd":"#ea580c","items":[
+    {"t":"Revisão semestral RED","m":"A","r":"PB DC"},
+    {"t":"PPL — Dia dos Namorados","m":"B","r":"PB DC"},
+    {"t":"Newsletter fevereiro","m":"D","r":"PB"}
+  ]},
+  {"mes":"Março","cor":"#f0fdf4","brd":"#16a34a","items":[
+    {"t":"PPL — Primavera a Ler / concurso","m":"B","r":"PB DC"},
+    {"t":"Início levantamento desbaste anual","m":"D","r":"PB AO"},
+    {"t":"Newsletter março","m":"D","r":"PB DC"}
+  ]},
+  {"mes":"Abril","cor":"#fdf4ff","brd":"#9333ea","items":[
+    {"t":"Desbaste anual (F04 / POP-DES-01) — MUSTIE","m":"D","r":"PB AO"},
+    {"t":"PPL — Dia Mundial do Livro (23/abr)","m":"B","r":"PB DC"},
+    {"t":"Inspeção semestral fundo S2 (CL04)","m":"D","r":"AO PB"},
+    {"t":"Newsletter abril","m":"D","r":"PB DC"}
+  ]},
+  {"mes":"Maio","cor":"#e0f2fe","brd":"#0284c7","items":[
+    {"t":"Questionários de satisfação (QA, QD, QDi)","m":"D","r":"PB"},
+    {"t":"Autoavaliação MABE com equipa","m":"D","r":"PB AO DC"},
+    {"t":"PPL — Semana da Leitura","m":"B","r":"PB DC"},
+    {"t":"Newsletter maio","m":"D","r":"PB DC"}
+  ]},
+  {"mes":"Junho","cor":"#fff7ed","brd":"#ea580c","items":[
+    {"t":"RAA — até 30/jun (POP-RAA-01)","m":"D","r":"PB"},
+    {"t":"Relatório MABE + submissão SI-RBE","m":"D","r":"PB"},
+    {"t":"Plano de Melhoria 2026-2027","m":"D","r":"PB"},
+    {"t":"Backup completo BiblioNet (F17)","m":"D","r":"PB"},
+    {"t":"Certificados Clube Leitura","m":"B","r":"PB"},
+    {"t":"Newsletter junho — última edição","m":"D","r":"PB DC"}
+  ]}
+]

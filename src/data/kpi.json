@@ -1,0 +1,17 @@
+[
+  {"nome":"N.º total de empréstimos","meta":"≥1.200/ano","und":"empréstimos","mabe":"D","fonte":"BiblioNet"},
+  {"nome":"Taxa de devolução no prazo","meta":"≥85%","und":"%","mabe":"D","fonte":"BiblioNet"},
+  {"nome":"Utilizadores ativos","meta":"≥20% total","und":"utilizadores","mabe":"D","fonte":"BiblioNet"},
+  {"nome":"Novos documentos incorporados","meta":"≥50/ano","und":"docs","mabe":"D","fonte":"BiblioNet"},
+  {"nome":"% coleção com edição ≤10 anos","meta":"≥60%","und":"%","mabe":"D","fonte":"BiblioNet"},
+  {"nome":"Satisfação geral utilizadores","meta":"≥4,0/5","und":"/5","mabe":"D","fonte":"Questionários"},
+  {"nome":"Nível médio MABE global","meta":"≥2,5/4","und":"/4","mabe":"D","fonte":"MABE"},
+  {"nome":"Taxa de execução PAA-BE","meta":"≥80%","und":"%","mabe":"D","fonte":"PAA/RAA"},
+  {"nome":"N.º sessões de articulação","meta":"≥10/ano","und":"sessões","mabe":"A","fonte":"F07"},
+  {"nome":"N.º turmas abrangidas","meta":"≥50%","und":"turmas","mabe":"A","fonte":"F07"},
+  {"nome":"N.º atividades PPL","meta":"≥8/ano","und":"atividades","mabe":"B","fonte":"PPL"},
+  {"nome":"Participantes em atividades PPL","meta":"≥300/ano","und":"pessoas","mabe":"B","fonte":"PPL"},
+  {"nome":"Membros Clube de Leitura","meta":"≥10","und":"membros","mabe":"B","fonte":"F14"},
+  {"nome":"Projetos com avaliação","meta":"≥2","und":"projetos","mabe":"C","fonte":"Dossiers"},
+  {"nome":"Parceiros externos ativos","meta":"≥2","und":"parceiros","mabe":"C","fonte":"Protocolos"}
+]

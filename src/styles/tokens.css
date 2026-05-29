@@ -1,0 +1,101 @@
+/* ═══════════════════════════════════════════════
+   tokens.css — Design tokens BE-ESP v4
+   Sistema de cores, espaços, tipografia e sombras
+   ═══════════════════════════════════════════════ */
+
+:root {
+  /* ── Cor principal (identidade BE-ESP) ── */
+  --brand:        #1a2744;
+  --brand-mid:    #243560;
+  --brand-soft:   #2e4480;
+  --brand-light:  #e8edf8;
+
+  /* ── Módulos — cor de acento por secção ── */
+  --mod-gestao:        #2563eb;
+  --mod-gestao-l:      #dbeafe;
+  --mod-utilizadores:  #059669;
+  --mod-utilizadores-l:#d1fae5;
+  --mod-pedagogia:     #7c3aed;
+  --mod-pedagogia-l:   #ede9fe;
+  --mod-avaliacao:     #d97706;
+  --mod-avaliacao-l:   #fef3c7;
+  --mod-comunicacao:   #dc2626;
+  --mod-comunicacao-l: #fee2e2;
+  --mod-digital:       #db2777;
+  --mod-digital-l:     #fce7f3;
+  --mod-arquivo:       #6b7280;
+  --mod-arquivo-l:     #f3f4f6;
+
+  /* ── Semântica (estado) ── */
+  --ok:     #059669; --ok-l:    #d1fae5;
+  --warn:   #d97706; --warn-l:  #fef3c7;
+  --danger: #dc2626; --danger-l:#fee2e2;
+  --info:   #2563eb; --info-l:  #dbeafe;
+
+  /* ── Neutros ── */
+  --white:    #ffffff;
+  --grey-50:  #f9fafb;
+  --grey-100: #f3f4f6;
+  --grey-200: #e5e7eb;
+  --grey-300: #d1d5db;
+  --grey-400: #9ca3af;
+  --grey-500: #6b7280;
+  --grey-600: #4b5563;
+  --grey-700: #374151;
+  --grey-800: #1f2937;
+  --grey-900: #111827;
+  --text:     #111827;
+
+  /* ── Tipografia ── */
+  --font: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'Courier New', Courier, monospace;
+
+  /* ── Espaçamento ── */
+  --sp-1: 4px;  --sp-2: 8px;  --sp-3: 12px;
+  --sp-4: 16px; --sp-5: 20px; --sp-6: 24px;
+
+  /* ── Raios ── */
+  --r-sm: 6px; --r: 10px; --r-lg: 14px; --r-xl: 20px;
+
+  /* ── Sombras ── */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.08);
+  --shadow:    0 2px 8px rgba(0,0,0,.1);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,.14);
+
+  /* ── Transições ── */
+  --t: all .16s ease;
+
+  /* ── Layout ── */
+  --sidebar-w: 240px;
+  --header-h:  52px;
+  --focus-ring: 0 0 0 3px rgba(37,99,235,.35);
+}
+
+/* Dark mode automático */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --brand:       #2e4480;
+    --brand-mid:   #3a56a0;
+    --brand-light: #1a2744;
+    --white:       #1f2937;
+    --grey-50:     #111827;
+    --grey-100:    #1f2937;
+    --grey-200:    #374151;
+    --grey-300:    #4b5563;
+    --grey-400:    #6b7280;
+    --grey-500:    #9ca3af;
+    --grey-600:    #d1d5db;
+    --grey-700:    #e5e7eb;
+    --grey-800:    #f3f4f6;
+    --grey-900:    #f9fafb;
+    --text:        #f9fafb;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration:  .01ms !important;
+    transition-duration: .01ms !important;
+  }
+}

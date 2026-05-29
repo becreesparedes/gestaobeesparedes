@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+  <meta name="theme-color" content="#1a2744">
+  <meta name="description" content="BE-ESP v4 · Gestão da Biblioteca Escolar · Escola Secundária de Paredes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="BE-ESP">
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;
+    style-src 'self' 'unsafe-inline';
+    connect-src https://graph.microsoft.com https://login.microsoftonline.com;
+    img-src 'self' data: https:;
+    font-src 'self' data:;
+    frame-src 'none';
+    object-src 'none';
+    base-uri 'self';
+  ">
+  <title>BE-ESP · Biblioteca Escolar</title>
+  <link rel="icon" href="/public/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/public/manifest.json">
+  <link rel="stylesheet" href="/src/styles/tokens.css">
+  <link rel="stylesheet" href="/src/styles/base.css">
+  <link rel="stylesheet" href="/src/styles/layout.css">
+  <link rel="stylesheet" href="/src/styles/components.css">
+  <link rel="stylesheet" href="/src/styles/modules.css">
+</head>
+<body>
+  <!-- Acessibilidade: saltar para conteúdo -->
+  <a href="#main-area" class="skip-link">Saltar para o conteúdo principal</a>
+  <!-- Região ARIA para toasts e notificações -->
+  <div id="aria-live" aria-live="polite" aria-atomic="true" class="sr-only"></div>
+  <!-- Ponto de montagem da aplicação -->
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

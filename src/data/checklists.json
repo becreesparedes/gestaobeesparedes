@@ -1,0 +1,30 @@
+[
+  {
+    "code":"CL-ABC-01","name":"Abertura Diária","freq":"Diária","resp":"AO",
+    "items":["Desativar alarme e abrir a BE","Ligar luzes e verificar iluminação","Ligar computadores e BiblioNet","Verificar caixa de devoluções noturna","Verificar reservas do dia","Colocar expositores de novidades","Verificar sinalética e ordem","Confirmar formulários em papel","Registar abertura no livro de ocorrências","Verificar correio eletrónico"]
+  },
+  {
+    "code":"CL-ENC-01","name":"Encerramento Diário","freq":"Diária","resp":"AO",
+    "items":["Avisar utilizadores com antecedência","Verificar que todos os utilizadores saíram","Recolher documentos das mesas","Arrumar as estantes","Recolher sugestões da caixa","Encerrar sessão BiblioNet","Desligar computadores e equipamentos","Fechar janelas e verificar segurança","Registar encerramento","Ativar alarme"]
+  },
+  {
+    "code":"CL01","name":"Início do Ano Letivo","freq":"Anual (set)","resp":"PB+AO",
+    "items":["Inspecionar espaços e mobiliário","Verificar equipamentos TIC","Atualizar sinalética","Verificar expositor regresso às aulas","Elaborar e entregar PAA-BE","Proposta de orçamento F02","Reunião equipa + F15","Importar utilizadores BiblioNet","Repor stock de formulários em papel","Levantamento de necessidades dos departamentos","Planear visitas de acolhimento 7.º e 10.º"]
+  },
+  {
+    "code":"CL02","name":"Final do Ano Letivo","freq":"Anual (jun)","resp":"PB+AO",
+    "items":["Recuperar todos os empréstimos em atraso","Inventário geral","Inspeção semestral F12","Desbaste concluído e submetido","Elaborar e entregar RAA","Questionários de satisfação aplicados","Relatório MABE elaborado","Plano de Melhoria elaborado","Submissão SI-RBE","Backup completo verificado F17","Certificados emitidos","Arquivar documentos em 10_Arquivo_Histórico"]
+  },
+  {
+    "code":"CL03","name":"Acolhimento Novas Turmas","freq":"Anual (out)","resp":"PB+AO",
+    "items":["Contactar DTs das turmas","Preparar guia de visita","Preparar exposição de serviços","Demonstração BiblioNet / OPAC","Realizar visita guiada","Distribuir regulamento","Registar turmas visitadas","Convidar inscrições Clube Leitura"]
+  },
+  {
+    "code":"CL04","name":"Inspeção Semestral","freq":"Semestral","resp":"AO+PB",
+    "items":["Percorrer todas as secções CDU","Identificar documentos danificados — F12","Identificar desatualizados — MUSTIE","Registar temperatura e humidade — F13","Verificar condições de conservação","Retirar documentos para reparação","Atualizar registos no BiblioNet","Preparar lista de desbaste — F04","Registar contagem por secção","Submeter relatório ao PB"]
+  },
+  {
+    "code":"CL05","name":"Preparação de Atividade","freq":"Por atividade","resp":"PB+AO",
+    "items":["Verificar data e disponibilidade do espaço","Reservar equipamentos","Preparar materiais e recursos","Convidar participantes","Autorizações RGPD para fotografias","Contactar convidados externos","Preparar registo de presenças","Divulgar a atividade nos canais da BE","Fotografar e recolher evidências","Preencher relatório pós-atividade — F07"]
+  }
+]

@@ -1,0 +1,128 @@
+/* ═══════════════════════════════════════
+   modules.css — Estilos específicos
+   por módulo (acento cromático)
+   ═══════════════════════════════════════ */
+
+/* Faixa de cor no topo do page-header por módulo */
+.mod-gestao       .page-header { border-left: 4px solid var(--mod-gestao); }
+.mod-utilizadores .page-header { border-left: 4px solid var(--mod-utilizadores); }
+.mod-pedagogia    .page-header { border-left: 4px solid var(--mod-pedagogia); }
+.mod-avaliacao    .page-header { border-left: 4px solid var(--mod-avaliacao); }
+.mod-comunicacao  .page-header { border-left: 4px solid var(--mod-comunicacao); }
+.mod-digital      .page-header { border-left: 4px solid var(--mod-digital); }
+.mod-arquivo      .page-header { border-left: 4px solid var(--mod-arquivo); }
+
+/* Dot de cor nos módulos do dashboard */
+.mod-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  flex-shrink: 0; display: inline-block;
+}
+.dot-gestao       { background: var(--mod-gestao); }
+.dot-utilizadores { background: var(--mod-utilizadores); }
+.dot-pedagogia    { background: var(--mod-pedagogia); }
+.dot-avaliacao    { background: var(--mod-avaliacao); }
+.dot-comunicacao  { background: var(--mod-comunicacao); }
+.dot-digital      { background: var(--mod-digital); }
+.dot-arquivo      { background: var(--mod-arquivo); }
+
+/* Cards de módulo no dashboard */
+.module-card {
+  background: var(--white);
+  border: 1px solid var(--grey-200);
+  border-radius: var(--r); padding: var(--sp-4);
+  cursor: pointer; transition: var(--t);
+  position: relative; overflow: hidden;
+}
+.module-card::before {
+  content: ''; position: absolute;
+  top: 0; left: 0; right: 0; height: 3px;
+}
+.module-card:hover { box-shadow: var(--shadow); transform: translateY(-1px); }
+
+.mc-gestao::before       { background: var(--mod-gestao); }
+.mc-utilizadores::before { background: var(--mod-utilizadores); }
+.mc-pedagogia::before    { background: var(--mod-pedagogia); }
+.mc-avaliacao::before    { background: var(--mod-avaliacao); }
+.mc-comunicacao::before  { background: var(--mod-comunicacao); }
+.mc-digital::before      { background: var(--mod-digital); }
+.mc-arquivo::before      { background: var(--mod-arquivo); }
+
+.module-card-icon  { font-size: 22px; margin-bottom: var(--sp-2); }
+.module-card-name  { font-size: .85rem; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+.module-card-desc  { font-size: .72rem; color: var(--grey-500); line-height: 1.4; }
+.module-card-count {
+  position: absolute; top: var(--sp-3); right: var(--sp-3);
+  font-size: .65rem; font-weight: 700;
+  background: var(--grey-100); color: var(--grey-500);
+  padding: 2px 7px; border-radius: 10px;
+}
+
+/* MABE domínios */
+.mabe-card {
+  border-radius: var(--r); overflow: hidden;
+  border: 1px solid var(--grey-200);
+  margin-bottom: var(--sp-3);
+  background: var(--white);
+}
+.mabe-header {
+  padding: var(--sp-3) var(--sp-4);
+  display: flex; align-items: center; gap: var(--sp-3);
+}
+.mabe-letter {
+  font-size: 28px; font-weight: 900;
+  line-height: 1; flex-shrink: 0;
+}
+.mabe-title   { font-weight: 700; font-size: .85rem; }
+.mabe-sub     { font-size: .7rem; opacity: .8; margin-top: 2px; }
+.mabe-body    { padding: var(--sp-3) var(--sp-4); }
+
+.mabe-A .mabe-header { background: var(--mod-gestao-l);       color: var(--mod-gestao); }
+.mabe-B .mabe-header { background: var(--mod-utilizadores-l); color: var(--mod-utilizadores); }
+.mabe-C .mabe-header { background: var(--mod-pedagogia-l);    color: var(--mod-pedagogia); }
+.mabe-D .mabe-header { background: var(--mod-avaliacao-l);    color: var(--mod-avaliacao); }
+
+/* KPI grid de 4 colunas */
+.kpi-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: var(--sp-3); margin-bottom: var(--sp-4); }
+@media (max-width: 900px) { .kpi-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) { .kpi-grid { grid-template-columns: 1fr; } }
+
+/* Checklist interativa */
+.cl-item {
+  display: flex; align-items: center; gap: var(--sp-2);
+  padding: 5px var(--sp-2); border-radius: var(--r-sm);
+  cursor: pointer; transition: background .15s;
+  margin-bottom: 2px;
+}
+.cl-item[aria-checked="true"]  { background: var(--ok-l); }
+.cl-item:hover                 { background: var(--grey-100); }
+.cl-box {
+  width: 15px; height: 15px; border-radius: 3px;
+  border: 2px solid var(--grey-300); flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  transition: var(--t);
+}
+.cl-item[aria-checked="true"] .cl-box {
+  background: var(--ok); border-color: var(--ok);
+}
+.cl-item[aria-checked="true"] .cl-box::after {
+  content: '✓'; font-size: 9px; color: #fff; font-weight: 700;
+}
+.cl-label {
+  font-size: .78rem;
+  .cl-item[aria-checked="true"] & { text-decoration: line-through; color: var(--grey-400); }
+}
+
+/* Explorador de ficheiros */
+.file-item {
+  display: flex; align-items: center; gap: var(--sp-2);
+  padding: var(--sp-2) var(--sp-3);
+  border-bottom: 1px solid var(--grey-100);
+  transition: background .12s; cursor: pointer;
+}
+.file-item:hover { background: var(--grey-50); }
+.file-item:last-child { border-bottom: none; }
+.file-icon  { font-size: 16px; flex-shrink: 0; width: 22px; text-align: center; }
+.file-name  { flex: 1; min-width: 0; font-size: .8rem; font-weight: 500; color: var(--text); }
+.file-meta  { font-size: .68rem; color: var(--grey-400); white-space: nowrap; }
+.file-actions { display: flex; gap: 4px; flex-shrink: 0; opacity: 0; transition: opacity .15s; }
+.file-item:hover .file-actions { opacity: 1; }

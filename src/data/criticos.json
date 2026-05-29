@@ -1,0 +1,10 @@
+[
+  {"icon":"📘","name":"Manual de Procedimentos BE-ESP","code":"MP-BE-ESP","folder":"01_Governança_e_Normativos/01_Manual_de_Procedimentos","desc":"Documento normativo central. Versão em vigor — consultar antes de qualquer procedimento.","prio":"h"},
+  {"icon":"📋","name":"PAA-BE — Plano Anual de Atividades","code":"PAA-BE","folder":"00_Entrada_e_Ativos/01_Abertura_do_Ano","desc":"Planificação do ano letivo atual com todas as atividades, prazos e responsáveis.","prio":"h"},
+  {"icon":"📊","name":"Dashboard KPI — Excel","code":"Dashboard_KPI","folder":"07_Avaliação_e_Melhoria/03_Dashboard","desc":"Ficheiro Excel com todos os indicadores de desempenho actualizados.","prio":"h"},
+  {"icon":"📑","name":"RAA — Relatório Anual de Atividades","code":"RAA","folder":"07_Avaliação_e_Melhoria/05_Relatórios_Anuais","desc":"Relatório do ano letivo anterior, entregue ao Diretor até 30 de junho.","prio":"m"},
+  {"icon":"🏆","name":"Relatório de Autoavaliação MABE","code":"MABE","folder":"07_Avaliação_e_Melhoria/01_MABE","desc":"Autoavaliação MABE com plano de melhoria aprovado e evidências por domínio.","prio":"m"},
+  {"icon":"🔒","name":"Registo Tratamento de Dados (RGPD)","code":"RGPD","folder":"08_Gestão_Digital_e_TIC/05_RGPD_e_Proteção_de_Dados","desc":"Registo de atividades de tratamento atualizado (POP-RGPD-01). Revisão anual em setembro.","prio":"m"},
+  {"icon":"💾","name":"Log de Verificação de Backups (F17)","code":"F17","folder":"08_Gestão_Digital_e_TIC/02_BiblioNet/05_Backup_e_Exportações","desc":"Registo mensal de verificação de backups do BiblioNet. Preencher até ao dia 5.","prio":"l"},
+  {"icon":"🌡️","name":"Registo Condições Ambientais (F13)","code":"F13","folder":"04_Recursos_e_Coleção/04_Conservação_e_Preservação","desc":"Temperatura 16–21°C e humidade relativa 45–55%. Registo mensal obrigatório.","prio":"l"}
+]

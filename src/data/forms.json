@@ -1,0 +1,20 @@
+[
+  {"code":"F01","name":"Registo de Utilizador","desc":"Registo + consentimento RGPD","resp":"AO","mabe":"D","folder":"09_Formulários_e_Modelos/01_Formulários_Operacionais/01_Registo_de_Utilizador"},
+  {"code":"F02","name":"Orçamento Anual","desc":"Proposta orçamental — até 30/set","resp":"PB","mabe":"D","folder":"00_Entrada_e_Ativos/01_Abertura_do_Ano"},
+  {"code":"F03","name":"Sugestão de Aquisição","desc":"Pode ser anónimo","resp":"AO","mabe":"D","folder":"09_Formulários_e_Modelos/01_Formulários_Operacionais/02_Sugestão_de_Aquisição"},
+  {"code":"F04","name":"Lista de Desbaste","desc":"Critérios MUSTIE + abate CIBE","resp":"PB","mabe":"D","folder":"04_Recursos_e_Coleção/05_Desbaste"},
+  {"code":"F05","name":"Empréstimo Manual","desc":"Só em falha do BiblioNet","resp":"AO","mabe":"D","folder":"09_Formulários_e_Modelos/01_Formulários_Operacionais/04_Empréstimo_Manual"},
+  {"code":"F06","name":"Sugestão / Reclamação","desc":"Pode ser anónimo","resp":"AO","mabe":"D","folder":"09_Formulários_e_Modelos/01_Formulários_Operacionais"},
+  {"code":"F07","name":"Articulação Curricular","desc":"Planificação + avaliação de sessão","resp":"PB","mabe":"A","folder":"03_Pedagogia_e_Literacias/01_Articulação_Curricular/05_Instrumentos_de_Articulação"},
+  {"code":"F08","name":"Requisição Sala de Aula","desc":"24h antecedência","resp":"AO","mabe":"D","folder":"09_Formulários_e_Modelos/01_Formulários_Operacionais/03_Requisição_de_Sala"},
+  {"code":"F09","name":"Guia Interbibliotecas","desc":"Pedido EIB","resp":"PB","mabe":"C","folder":"05_Utilizadores_e_Serviços/04_Empréstimo_Interbibliotecas"},
+  {"code":"F10","name":"Registo de Equipamentos","desc":"Acesso a computadores públicos","resp":"AO","mabe":"D","folder":"08_Gestão_Digital_e_TIC/01_Equipamentos_e_Manutenção"},
+  {"code":"F11","name":"Formulário de Ocorrência","desc":"Disciplinar, dano, furto","resp":"PB","mabe":"D","folder":"09_Formulários_e_Modelos/01_Formulários_Operacionais/05_Registo_de_Ocorrência"},
+  {"code":"F12","name":"Inspeção Semestral","desc":"Estado fundo CDU (2×/ano)","resp":"AO","mabe":"D","folder":"04_Recursos_e_Coleção/04_Conservação_e_Preservação"},
+  {"code":"F13","name":"Condições Ambientais","desc":"Temp 16–21°C | HR 45–55% (mensal)","resp":"PB","mabe":"D","folder":"04_Recursos_e_Coleção/04_Conservação_e_Preservação"},
+  {"code":"F14","name":"Inscrição Clube de Leitura","desc":"Inscrição e preferências","resp":"AO","mabe":"B","folder":"03_Pedagogia_e_Literacias/03_Promoção_da_Leitura/02_Clubes_de_Leitura"},
+  {"code":"F15","name":"Necessidades de Formação","desc":"Autoavaliação da equipa (set)","resp":"PB","mabe":"D","folder":"00_Entrada_e_Ativos/01_Abertura_do_Ano"},
+  {"code":"F16","name":"Candidatura a Voluntário","desc":"Voluntariado na BE","resp":"AO","mabe":"D","folder":"05_Utilizadores_e_Serviços/06_Reclamações_e_Ocorrências"},
+  {"code":"F17","name":"Verificação de Backups","desc":"Log mensal backups BiblioNet","resp":"PB","mabe":"D","folder":"08_Gestão_Digital_e_TIC/02_BiblioNet/05_Backup_e_Exportações"},
+  {"code":"F18","name":"Pedido RGPD","desc":"Exercício de direitos — 30 dias","resp":"PB","mabe":"D","folder":"08_Gestão_Digital_e_TIC/05_RGPD_e_Proteção_de_Dados"}
+]

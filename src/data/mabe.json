@@ -1,0 +1,46 @@
+[
+  {
+    "domain":"A",
+    "title":"A — Currículo, Literacias e Aprendizagem",
+    "subs":["A.1 — Apoio ao currículo","A.2 — Literacias da informação e dos média"],
+    "pops":["POP-ART-01","POP-REF-01","POP-RED-01"],
+    "forms":["F07"],
+    "kpi":["≥10 sessões/ano","≥50% turmas","AcBE aplicado"],
+    "levels":["Nível 4: ≥76% turmas","Nível 3: 51–75%","Nível 2: 26–50%","Nível 1: ≤25%"],
+    "folder":"03_Pedagogia_e_Literacias/01_Articulação_Curricular",
+    "color":"mod-gestao"
+  },
+  {
+    "domain":"B",
+    "title":"B — Leitura e Literacia",
+    "subs":["B.1 — Promoção da leitura","B.2 — Treino da competência leitora"],
+    "pops":["POP-PPL-01","POP-ACQ-01"],
+    "forms":["F14"],
+    "kpi":["≥8 atividades/ano","≥300 participantes","Clube Leitura ativo"],
+    "levels":["Nível 4: ≥76%","Nível 3: 51–75%","Nível 2: 26–50%","Nível 1: ≤25%"],
+    "folder":"03_Pedagogia_e_Literacias/03_Promoção_da_Leitura",
+    "color":"mod-utilizadores"
+  },
+  {
+    "domain":"C",
+    "title":"C — Projetos e Parcerias",
+    "subs":["C.1 — Parcerias internas e externas","C.2 — Envolvimento das famílias"],
+    "pops":["POP-PRJ-01","POP-EIB-01"],
+    "forms":["F09"],
+    "kpi":["≥2 projetos","≥2 parceiros externos","Reuniões concelhias"],
+    "levels":["Nível 4: sistemáticas","Nível 3: regulares","Nível 2: pontuais","Nível 1: sem parcerias"],
+    "folder":"03_Pedagogia_e_Literacias/05_Projetos_e_Parcerias",
+    "color":"mod-pedagogia"
+  },
+  {
+    "domain":"D",
+    "title":"D — Gestão da Biblioteca Escolar",
+    "subs":["D.1 — Recursos humanos e financeiros","D.2 — Desenvolvimento e gestão da coleção"],
+    "pops":["POP-ACQ-01","POP-CAT-01","POP-MAB-01","POP-FIN-01","POP-BKP-01"],
+    "forms":["F02","F04","F12","F13","F17"],
+    "kpi":["≥1.200 empréstimos","Devolução ≥85%","MABE ≥2,5/4"],
+    "levels":["Nível 4: ≥76% docentes","Nível 3: 51–75%","Nível 2: 26–50%","Nível 1: ≤25%"],
+    "folder":"07_Avaliação_e_Melhoria/01_MABE",
+    "color":"mod-avaliacao"
+  }
+]
