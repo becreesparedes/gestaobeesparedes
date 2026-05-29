@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -7,6 +8,7 @@
   <meta name="description" content="BE-ESP v4 · Gestão da Biblioteca Escolar · Escola Secundária de Paredes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="BE-ESP">
+
   <meta http-equiv="Content-Security-Policy" content="
     default-src 'self';
     script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;
@@ -18,22 +20,40 @@
     object-src 'none';
     base-uri 'self';
   ">
+
   <title>BE-ESP · Biblioteca Escolar</title>
-  <link rel="icon" href="/public/favicon.svg" type="image/svg+xml">
-  <link rel="manifest" href="/public/manifest.json">
-  <link rel="stylesheet" href="/src/styles/tokens.css">
-  <link rel="stylesheet" href="/src/styles/base.css">
-  <link rel="stylesheet" href="/src/styles/layout.css">
-  <link rel="stylesheet" href="/src/styles/components.css">
-  <link rel="stylesheet" href="/src/styles/modules.css">
+
+  <!-- Caminhos corrigidos para GitHub Pages -->
+  <link rel="icon" href="./public/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./public/manifest.json">
+
+  <link rel="stylesheet" href="./src/styles/tokens.css">
+  <link rel="stylesheet" href="./src/styles/base.css">
+  <link rel="stylesheet" href="./src/styles/layout.css">
+  <link rel="stylesheet" href="./src/styles/components.css">
+  <link rel="stylesheet" href="./src/styles/modules.css">
 </head>
+
 <body>
-  <!-- Acessibilidade: saltar para conteúdo -->
-  <a href="#main-area" class="skip-link">Saltar para o conteúdo principal</a>
-  <!-- Região ARIA para toasts e notificações -->
-  <div id="aria-live" aria-live="polite" aria-atomic="true" class="sr-only"></div>
+
+  <!-- Acessibilidade -->
+  <a href="#main-area" class="skip-link">
+    Saltar para o conteúdo principal
+  </a>
+
+  <!-- Região ARIA para notificações -->
+  <div id="aria-live"
+       aria-live="polite"
+       aria-atomic="true"
+       class="sr-only">
+  </div>
+
   <!-- Ponto de montagem da aplicação -->
   <div id="app"></div>
-  <script type="module" src="/src/main.js"></script>
+
+  <!-- Script principal -->
+  <script type="module" src="./src/main.js"></script>
+
 </body>
 </html>
+```
